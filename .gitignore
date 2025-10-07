@@ -1,0 +1,80 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+build/
+flutter_*.png
+*.log
+coverage/
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Android
+*.apk
+*.aar
+*.jks
+*.keystore
+*.gradle
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/key.properties
+
+# iOS/macOS
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Pods/
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata/
+
+# Linux/Windows
+linux/flutter/
+windows/flutter/
+windows/runner/Debug/
+windows/runner/Release/
+
+# Web
+web/.dart_tool/
+build/web/
+
+# Supabase/Env/Firebase keys
+.env
+.env.*
+.env.local
+.env.production
+.env.development
+*.env
+*.secret
+*.keys
+supabase/.temp/
+supabase/functions/.netlify/
+
+# Firebase configs
+google-services.json
+GoogleService-Info.plist
+
+# Logs
+*.tmp
+*.swp
+*.DS_Store
+*.bak
+*.lock
+
+# IDEs
+*.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Test/coverage
+coverage/
+test/output/
+*.lcov
